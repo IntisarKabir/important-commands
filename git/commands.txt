@@ -12,6 +12,15 @@ $ git remote -v
 git push origin main
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin master
+
+
+
+
 
 # New local repository
 git init
